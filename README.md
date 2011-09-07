@@ -15,7 +15,7 @@ function jDataViewReader (jdataview)
 
 ####Members
 + **readInt8**  
-Reads an 8 bit int.
+Reads an 8 bit int.  
 ```javascript
 function readInt8 ()
 ```
@@ -24,7 +24,7 @@ int
 
 
 + **readUInt8**  
-Reads an 8 bit unsigned int.
+Reads an 8 bit unsigned int.  
 ```javascript
 function readUInt8 ()
 ```
