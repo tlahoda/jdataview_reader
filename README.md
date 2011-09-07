@@ -21,7 +21,7 @@ Reads an 8 bit int.
 function readInt8 ()
 ```
 
-#####readUInt8
++ **readUInt8**  
 Reads an 8 bit unsigned int.
 
 ```javascript
