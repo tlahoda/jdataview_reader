@@ -21,6 +21,10 @@ Reads an 8 bit int.
 function readInt8 ()
 ```
 
+#####returns
+int
+
+
 + **readUInt8**  
 Reads an 8 bit unsigned int.
 
