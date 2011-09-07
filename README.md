@@ -27,7 +27,6 @@ int
 
 + **readUInt8**  
 Reads an 8 bit unsigned int.
-
 ```javascript
 function readUInt8 ()
 ```
