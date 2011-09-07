@@ -7,6 +7,12 @@ Usage
 -----
 
 ####Construction
+A jDataViewReader is constructed by passing in a valid jDaiaView object.
+
+```javascript
+function jDataViewReader (jdataview)
+```
+
 ```javascript
 var buffer = new Array (25);//fill with some binary data
 var reader = new jDataViewReader (new jDataView (buffer));
