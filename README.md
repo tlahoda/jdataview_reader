@@ -3,9 +3,6 @@ jDataViewReader
 
 jDataViewReader wraps jdataview to provide sequential read usage semantics.
 
-Usage
------
-
 ####Construction
 A jDataViewReader is constructed by passing in a valid jDataView object.
 
@@ -102,6 +99,9 @@ Tells where you are in the data.
 ```javascript
 function tell ()
 ```
+
+Usage
+-----
 
 
 ####Copyright (C) 2011 Thomas P. Lahoda
