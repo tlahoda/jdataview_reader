@@ -28,70 +28,70 @@ Reads an 8 bit unsigned int.
 function readUInt8 ()
 ```
 
-#####readInt16
++ **readInt16**  
 Reads a 16 bit int.
 
 ```javascript
 function readInt16 (littleEndian)
 ```
 
-#####readUInt16
++ **readUInt16**  
 Reads a 16 bit unsigned int.
 
 ```javascript
 function readUInt16 (littleEndian)
 ```
 
-#####readInt32
++ **readInt32**  
 Reads a 32 bit int.
 
 ```javascript
 function readInt32 (littleEndian)
 ```
 
-#####readUInt32
++ **readUInt32**  
 Reads a 32 bit unsigned int.
 
 ```javascript
 function readUInt32 (littleEndian)
 ```
 
-#####readFloat
++ **readFloat**  
 Reads a 32 bit float.
 
 ```javascript
 function readFloat (littleEndian)
 ```
 
-#####readDouble
++ **readDouble**  
 Reads a 64 bit double.
 
 ```javascript
 function readDouble (littleEndian)
 ```
 
-#####readChar
++ **readChar**  
 Reads a char.
 
 ```javascript
 function readChar ()
 ```
 
-#####readString
++ **readString**  
 Reads a string of the given length.
 
 ```javascript
 function readString (length)
 ```
 
-#####seek
++ **seek**  
 Seeks to pos.
 
 ```javascript
 function seek (pos)
 ```
 
-#####tell
++ **tell**  
 Tells where you are in the data.
 
 ```javascript
