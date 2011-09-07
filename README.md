@@ -8,7 +8,6 @@ Interface
 
 ####Constructor
 A jDataViewReader is constructed by passing in a valid jDataView object.
-*parameters*  
 
 ```javascript
 function jDataViewReader (jdataview)
@@ -17,7 +16,6 @@ function jDataViewReader (jdataview)
 ####Members
 + **readInt8**  
 Reads an 8 bit int.  
-*returns* int
 
 ```javascript
 function readInt8 ()
