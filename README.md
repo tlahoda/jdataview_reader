@@ -3,6 +3,9 @@ jDataViewReader
 
 jDataViewReader wraps jdataview to provide sequential read usage semantics.
 
+Interface
+---------
+
 ####Construction
 A jDataViewReader is constructed by passing in a valid jDataView object.
 
