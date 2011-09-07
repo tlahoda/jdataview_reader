@@ -20,72 +20,84 @@ var reader = new jDataViewReader (new jDataView (buffer));
 
 ####Members
 #####readInt8
+Reads an 8 bit int.
 
 ```javascript
 function readInt8 ()
 ```
 
 #####readUInt8
+Reads an 8 bit unsigned int.
 
 ```javascript
 function readUInt8 ()
 ```
 
 #####readInt16
+Reads a 16 bit int.
 
 ```javascript
 function readInt16 (littleEndian)
 ```
 
 #####readUInt16
+Reads a 16 bit unsigned int.
 
 ```javascript
 function readUInt16 (littleEndian)
 ```
 
 #####readInt32
+Reads a 32 bit int.
 
 ```javascript
 function readInt32 (littleEndian)
 ```
 
 #####readUInt32
+Reads a 32 bit unsigned int.
 
 ```javascript
 function readUInt32 (littleEndian)
 ```
 
 #####readFloat
+Reads a 32 bit float.
 
 ```javascript
 function readFloat (littleEndian)
 ```
 
 #####readDouble
+Reads a 64 bit double.
 
 ```javascript
 function readDouble (littleEndian)
 ```
 
 #####readChar
+Reads a char.
 
 ```javascript
 function readChar ()
 ```
 
 #####readString
+Reads a string of the given length.
 
 ```javascript
 function readString (length)
 ```
 
 #####seek
+Seeks to pos.
 
 ```javascript
 function seek (pos)
 ```
 
 #####tell
+Tells where you are in the data.
 
 ```javascript
 function tell ()
