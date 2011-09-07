@@ -7,7 +7,7 @@ Usage
 -----
 
 ####Construction
-A jDataViewReader is constructed by passing in a valid jDaiaView object.
+A jDataViewReader is constructed by passing in a valid jDataView object.
 
 ```javascript
 function jDataViewReader (jdataview)
@@ -20,17 +20,77 @@ var reader = new jDataViewReader (new jDataView (buffer));
 
 ####Members
 #####readInt8
+
+```javascript
+function readInt8 ()
+```
+
 #####readUInt8
+
+```javascript
+function readUInt8 ()
+```
+
 #####readInt16
+
+```javascript
+function readInt16 (littleEndian)
+```
+
 #####readUInt16
+
+```javascript
+function readUInt16 (littleEndian)
+```
+
 #####readInt32
+
+```javascript
+function readInt32 (littleEndian)
+```
+
 #####readUInt32
+
+```javascript
+function readUInt32 (littleEndian)
+```
+
 #####readFloat
+
+```javascript
+function readFloat (littleEndian)
+```
+
 #####readDouble
+
+```javascript
+function readDouble (littleEndian)
+```
+
 #####readChar
+
+```javascript
+function readChar ()
+```
+
 #####readString
+
+```javascript
+function readString (length)
+```
+
 #####seek
+
+```javascript
+function seek (pos)
+```
+
 #####tell
+
+```javascript
+function tell ()
+```
+
 
 ####Copyright (C) 2011 Thomas P. Lahoda
 
