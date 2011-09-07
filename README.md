@@ -6,6 +6,25 @@ jDataViewReader wraps jdataview to provide sequential read usage semantics.
 Usage
 -----
 
+####Construction
+```javascript
+var buffer = new Array (25);//fill with some binary data
+var reader = new jDataViewReader (new jDataView (buffer));
+```
+
+####Members
+#####readInt8
+#####readUInt8
+#####readInt16
+#####readUInt16
+#####readInt32
+#####readUInt32
+#####readFloat
+#####readDouble
+#####readChar
+#####readString
+#####seek
+#####tell
 
 ####Copyright (C) 2011 Thomas P. Lahoda
 
