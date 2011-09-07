@@ -6,7 +6,7 @@ jDataViewReader wraps jdataview to provide sequential read usage semantics.
 Interface
 ---------
 
-####Construction
+####Constructor
 A jDataViewReader is constructed by passing in a valid jDataView object.
 
 ```javascript
@@ -14,7 +14,7 @@ function jDataViewReader (jdataview)
 ```
 
 ####Members
-#####readInt8
++ **readInt8**
 Reads an 8 bit int.
 
 ```javascript
