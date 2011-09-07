@@ -13,11 +13,6 @@ A jDataViewReader is constructed by passing in a valid jDataView object.
 function jDataViewReader (jdataview)
 ```
 
-```javascript
-var buffer = new Array (25);//fill with some binary data
-var reader = new jDataViewReader (new jDataView (buffer));
-```
-
 ####Members
 #####readInt8
 Reads an 8 bit int.
