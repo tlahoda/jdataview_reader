@@ -101,8 +101,6 @@ Returns the current position in the data.
 function tell ()
 ```
 
---------------------------------------------------------------------------
-
 Usage
 -----
 
