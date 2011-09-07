@@ -6,12 +6,16 @@ jDataViewReader wraps jdataview to provide sequential read usage semantics.
 Interface
 ---------
 
+--------------------------------------------------------------------------
+
 ####Constructor
 A jDataViewReader is constructed by passing in a valid jDataView object.
 
 ```javascript
 function jDataViewReader (jdataview)
 ```
+
+--------------------------------------------------------------------------
 
 ####Members
 + **readInt8**  
@@ -93,15 +97,18 @@ function seek (pos)
 ```
 
 + **tell**  
-Tells where you are in the data.
+Returns the current position in the data.
 
 ```javascript
 function tell ()
 ```
 
+--------------------------------------------------------------------------
+
 Usage
 -----
 
+--------------------------------------------------------------------------
 
 ####Copyright (C) 2011 Thomas P. Lahoda
 
